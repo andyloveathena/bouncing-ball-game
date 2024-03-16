@@ -21,25 +21,7 @@ function control(e) {
   ground_x = e.clientX;
 }
 
-//托球板子
-let board = [];
 
-board[0] = {
-  x: 540,
-  y: 520,
-};
-board[1] = {
-  x: 500,
-  y: 520,
-};
-board[2] = {
-  x: 460,
-  y: 520,
-};
-board[3] = {
-  x: 420,
-  y: 520,
-};
 
 let arr = [];
 class Brick {
